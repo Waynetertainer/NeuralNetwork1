@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace NeuralNetwork_1
 {
@@ -10,6 +6,8 @@ namespace NeuralNetwork_1
     {
         static void Main(string[] args)
         {
+            Network network = new Network(new[] { 2, 3, 4, 5 });
+            Console.ReadKey();
         }
     }
 }
